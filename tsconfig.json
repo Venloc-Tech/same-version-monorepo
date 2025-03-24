@@ -10,10 +10,12 @@
     "baseUrl": ".",
 
     // Compile mode
+    "noEmit": true,
     "moduleResolution": "NodeNext",
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
-    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
 
     // Best practices
     "strict": true,
@@ -26,7 +28,7 @@
     "noPropertyAccessFromIndexSignature": false,
 
     "paths": {
-      "@venloc-tech/*": ["packages/*/src/index.ts", "all/*/src/index.ts"],
+      "@venloc-tech/*": ["packages/*/src/index.ts", "all/*/src/index.ts"]
     }
   },
 }
