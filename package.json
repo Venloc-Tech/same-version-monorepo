@@ -1,5 +1,5 @@
 {
-  "name": "same-version-monorepo",
+  "name": "svm",
   "type": "module",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Venloc-Tech/same-version-monorepo.git"
+    "url": "git+https://github.com/Venloc-Tech/svm.git"
   },
   "scripts": {
     "template:prepare:git": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
