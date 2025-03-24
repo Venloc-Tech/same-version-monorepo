@@ -15,11 +15,14 @@
     "template:prepare:git": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
     "prepare": "bun run template:prepare:git"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/bun": "latest",
-    "typescript": "5.8.2"
+    "@venloc-tech/typelint": "^1.0.2",
+    "eslint": "^9.23.0",
+    "jiti": "^2.4.2",
+    "lint-staged": "^15.5.0",
+    "typescript": "5.8.2",
+    "typescript-eslint": "^8.27.0"
   }
 }
