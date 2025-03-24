@@ -28,7 +28,7 @@
     "noPropertyAccessFromIndexSignature": false,
 
     "paths": {
-      "@venloc-tech/*": ["packages/*/src/index.ts", "all/*/src/index.ts"]
+      "@venloc-tech/*": []
     }
   },
 }
