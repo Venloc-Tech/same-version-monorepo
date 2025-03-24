@@ -1,0 +1,26 @@
+{
+  "name": "same-version-monorepo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "version": "0.0.0",
+  "eslintConfig": "eslint.config.ts",
+  "lint-staged": {
+    "**/*.{ts,tsx,js,jsx}": "eslint --cache --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venloc-Tech/same-version-monorepo.git"
+  },
+  "scripts": {
+    "template:prepare:git": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
+    "prepare": "bun run template:prepare:git"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "5.8.2"
+  }
+}
