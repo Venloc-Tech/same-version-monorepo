@@ -7,6 +7,7 @@ import BunLock from "../../bun.lock";
 
 const banner = `/**
 * Thanks for using Venloc SVM <3
+* https://github.com/venloc-tech/svm
 */`;
 
 
