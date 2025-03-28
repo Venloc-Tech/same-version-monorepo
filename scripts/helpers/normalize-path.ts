@@ -1,0 +1,1 @@
+export const normalizePath = (str: string) => str.split("\\").join("/");
