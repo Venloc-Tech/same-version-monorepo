@@ -1,5 +1,5 @@
 {
   "extends": "./tsconfig.json",
-  "include": [".git-hooks/helpers/**/*.ts", "scripts/**/*.ts"],
+  "include": ["scripts/**/*.ts"],
   "files": ["eslint.config.ts"]
 }
