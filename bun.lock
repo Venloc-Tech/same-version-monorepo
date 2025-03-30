@@ -5,7 +5,7 @@
       "name": "same-version-monorepo",
       "devDependencies": {
         "@types/bun": "latest",
-        "@venloc-tech/typelint": "^1.0.2",
+        "@venloc-tech/typelint": "^1.1.0",
         "eslint": "^9.23.0",
         "jiti": "^2.4.2",
         "lint-staged": "^15.5.0",
@@ -184,7 +184,7 @@
 
     "@typescript-eslint/visitor-keys": ["@typescript-eslint/visitor-keys@8.27.0", "", { "dependencies": { "@typescript-eslint/types": "8.27.0", "eslint-visitor-keys": "^4.2.0" } }, "sha512-WsXQwMkILJvffP6z4U3FYJPlbf/j07HIxmDjZpbNvBJkMfvwXj5ACRkkHwBDvLBbDbtX5TdU64/rcvKJ/vuInQ=="],
 
-    "@venloc-tech/typelint": ["@venloc-tech/typelint@1.0.2", "https://npm.pkg.github.com/download/@venloc-tech/typelint/1.0.2/8175face136d966acecd2c5ec29c1869846f288a", { "dependencies": { "@eslint/compat": "^1.2.7", "@eslint/js": "^9.21.0", "@stylistic/eslint-plugin-js": "^4.2.0", "@stylistic/eslint-plugin-jsx": "^4.2.0" } }, "sha512-/JghWLBbuJUbjAI1SE9agpfobKDJWY1bfZ3hnJnNveZQJSVRfAGklwiP52lAhcwq34aTqKp62U8vzKsbrq/oyg=="],
+    "@venloc-tech/typelint": ["@venloc-tech/typelint@1.1.0", "https://npm.pkg.github.com/download/@venloc-tech/typelint/1.1.0/18396b16f96872ba36ed66e7ad2a37854baefd61", { "dependencies": { "@eslint/compat": "^1.2.7", "@eslint/js": "^9.21.0", "@stylistic/eslint-plugin-js": "^4.2.0", "@stylistic/eslint-plugin-jsx": "^4.2.0" } }, "sha512-5BpebV3LnTf+L+so0y9NjKvYVYoHwVlZrMjTjTXStT+zhEuyngAT6GEb/kpEIXHaWIRRKAcqZcS1K61PbnM2VQ=="],
 
     "acorn": ["acorn@8.14.1", "", { "bin": { "acorn": "bin/acorn" } }, "sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg=="],
 
