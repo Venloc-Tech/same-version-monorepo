@@ -1,0 +1,8 @@
+#!/bin/sh
+# Add colors to ENV (dot is replace source, for POSIX systems by github recommendations)
+. .git-hooks/helpers/colors2env.sh
+COMMIT_MSG_FILE=$1
+
+# shellcheck disable=SC2059
+printf "${Color_Purple}[Venloc] Commit message hook started${Color_Off}\n"
+bun scripts/git-hooks/validate-commit-message.ts "$COMMIT_MSG_FILE"

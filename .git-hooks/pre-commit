@@ -1,0 +1,7 @@
+#!/bin/sh
+# Add colors to ENV (dot is replace source, for POSIX systems by github recommendations)
+. .git-hooks/helpers/colors2env.sh
+
+# shellcheck disable=SC2059
+printf "${Color_Purple}[Venloc] Pre commit hook started${Color_Off}\n"
+bunx --bun lint-staged
